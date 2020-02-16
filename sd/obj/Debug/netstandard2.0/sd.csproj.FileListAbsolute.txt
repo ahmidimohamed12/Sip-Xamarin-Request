@@ -1,0 +1,12 @@
+/Users/ahmidimohamed/Projects/sd/sd/bin/Debug/netstandard2.0/sd.deps.json
+/Users/ahmidimohamed/Projects/sd/sd/bin/Debug/netstandard2.0/sd.dll
+/Users/ahmidimohamed/Projects/sd/sd/bin/Debug/netstandard2.0/ref/sd.dll
+/Users/ahmidimohamed/Projects/sd/sd/bin/Debug/netstandard2.0/sd.pdb
+/Users/ahmidimohamed/Projects/sd/sd/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/ahmidimohamed/Projects/sd/sd/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/ahmidimohamed/Projects/sd/sd/obj/Debug/netstandard2.0/sd.AssemblyInfoInputs.cache
+/Users/ahmidimohamed/Projects/sd/sd/obj/Debug/netstandard2.0/sd.AssemblyInfo.cs
+/Users/ahmidimohamed/Projects/sd/sd/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/ahmidimohamed/Projects/sd/sd/obj/Debug/netstandard2.0/sd.dll
+/Users/ahmidimohamed/Projects/sd/sd/obj/Debug/netstandard2.0/ref/sd.dll
+/Users/ahmidimohamed/Projects/sd/sd/obj/Debug/netstandard2.0/sd.pdb

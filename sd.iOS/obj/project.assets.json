@@ -1,0 +1,1771 @@
+{
+  "version": 3,
+  "targets": {
+    "Xamarin.iOS,Version=v1.0": {
+      "Independentsoft.Sip/1.0.580": {
+        "type": "package",
+        "compile": {
+          "Lib/netstandard2.0/Independentsoft.Sip.dll": {}
+        },
+        "runtime": {
+          "Lib/netstandard2.0/Independentsoft.Sip.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.3.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "OpenTK-1.0"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "Xamarin.Forms/4.3.0.908675": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "resource": {
+          "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "da"
+          },
+          "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "de"
+          },
+          "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "el"
+          },
+          "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "es"
+          },
+          "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "he"
+          },
+          "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hi"
+          },
+          "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "id"
+          },
+          "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "it"
+          },
+          "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ms"
+          },
+          "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-br"
+          },
+          "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "th"
+          },
+          "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/Xamarin.Forms.props": {},
+          "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "sd/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Independentsoft.Sip": "1.0.580",
+          "Xamarin.Essentials": "1.3.1",
+          "Xamarin.Forms": "4.3.0.908675"
+        },
+        "compile": {
+          "bin/placeholder/sd.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/sd.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win": {
+      "Independentsoft.Sip/1.0.580": {
+        "type": "package",
+        "compile": {
+          "Lib/netstandard2.0/Independentsoft.Sip.dll": {}
+        },
+        "runtime": {
+          "Lib/netstandard2.0/Independentsoft.Sip.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.3.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "OpenTK-1.0"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "Xamarin.Forms/4.3.0.908675": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "resource": {
+          "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "da"
+          },
+          "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "de"
+          },
+          "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "el"
+          },
+          "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "es"
+          },
+          "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "he"
+          },
+          "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hi"
+          },
+          "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "id"
+          },
+          "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "it"
+          },
+          "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ms"
+          },
+          "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-br"
+          },
+          "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "th"
+          },
+          "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/Xamarin.Forms.props": {},
+          "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "sd/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Independentsoft.Sip": "1.0.580",
+          "Xamarin.Essentials": "1.3.1",
+          "Xamarin.Forms": "4.3.0.908675"
+        },
+        "compile": {
+          "bin/placeholder/sd.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/sd.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Independentsoft.Sip/1.0.580": {
+        "type": "package",
+        "compile": {
+          "Lib/netstandard2.0/Independentsoft.Sip.dll": {}
+        },
+        "runtime": {
+          "Lib/netstandard2.0/Independentsoft.Sip.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.3.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "OpenTK-1.0"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "Xamarin.Forms/4.3.0.908675": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "resource": {
+          "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "da"
+          },
+          "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "de"
+          },
+          "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "el"
+          },
+          "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "es"
+          },
+          "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "he"
+          },
+          "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hi"
+          },
+          "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "id"
+          },
+          "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "it"
+          },
+          "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ms"
+          },
+          "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-br"
+          },
+          "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "th"
+          },
+          "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/Xamarin.Forms.props": {},
+          "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "sd/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Independentsoft.Sip": "1.0.580",
+          "Xamarin.Essentials": "1.3.1",
+          "Xamarin.Forms": "4.3.0.908675"
+        },
+        "compile": {
+          "bin/placeholder/sd.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/sd.dll": {}
+        }
+      }
+    },
+    "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Independentsoft.Sip/1.0.580": {
+        "type": "package",
+        "compile": {
+          "Lib/netstandard2.0/Independentsoft.Sip.dll": {}
+        },
+        "runtime": {
+          "Lib/netstandard2.0/Independentsoft.Sip.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/xamarinios10/_._": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/_._": {}
+        }
+      },
+      "Xamarin.Essentials/1.3.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Numerics.Vectors": "4.5.0"
+        },
+        "frameworkAssemblies": [
+          "OpenTK-1.0"
+        ],
+        "compile": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Essentials.dll": {}
+        }
+      },
+      "Xamarin.Forms/4.3.0.908675": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll": {},
+          "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll": {}
+        },
+        "resource": {
+          "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ar"
+          },
+          "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ca"
+          },
+          "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "da"
+          },
+          "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "de"
+          },
+          "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "el"
+          },
+          "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "es"
+          },
+          "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fi"
+          },
+          "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "he"
+          },
+          "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hi"
+          },
+          "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hr"
+          },
+          "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "id"
+          },
+          "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "it"
+          },
+          "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ms"
+          },
+          "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nb"
+          },
+          "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "nl"
+          },
+          "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt-br"
+          },
+          "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "pt"
+          },
+          "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sk"
+          },
+          "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "th"
+          },
+          "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "uk"
+          },
+          "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "vi"
+          },
+          "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-HK"
+          },
+          "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        },
+        "build": {
+          "build/Xamarin.Forms.props": {},
+          "build/Xamarin.Forms.targets": {}
+        }
+      },
+      "sd/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Independentsoft.Sip": "1.0.580",
+          "Xamarin.Essentials": "1.3.1",
+          "Xamarin.Forms": "4.3.0.908675"
+        },
+        "compile": {
+          "bin/placeholder/sd.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/sd.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Independentsoft.Sip/1.0.580": {
+      "sha512": "jL1O/aFfUsW189WECA5vO94z4ghch4F9To+O1iKuKnGx/5b4M0TtLi987dMWu8ijR+PGViFgFQkQdixfuqGkCg==",
+      "type": "package",
+      "path": "independentsoft.sip/1.0.580",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Doc/ClassReference.chm",
+        "Lib/ReadMe.txt",
+        "Lib/net20/Independentsoft.Sip.dll",
+        "Lib/net20/Independentsoft.Sip.xml",
+        "Lib/net45/Independentsoft.Sip.dll",
+        "Lib/net45/Independentsoft.Sip.xml",
+        "Lib/netcoreapp2.0/Independentsoft.Sip.dll",
+        "Lib/netstandard2.0/Independentsoft.Sip.dll",
+        "License.txt",
+        "Online Tutorial.htm",
+        "Tutorial/AcceptInviteAdvanced/AcceptInviteAdvanced.csproj",
+        "Tutorial/AcceptInviteAdvanced/Program.cs",
+        "Tutorial/AcceptInviteAdvanced/Properties/AssemblyInfo.cs",
+        "Tutorial/AcceptInviteAdvanced/obj/Debug/AcceptInviteAdvanced.csproj.CopyComplete",
+        "Tutorial/AcceptInviteAdvanced/obj/Debug/AcceptInviteAdvanced.csproj.CoreCompileInputs.cache",
+        "Tutorial/AcceptInviteAdvanced/obj/Debug/AcceptInviteAdvanced.csprojAssemblyReference.cache",
+        "Tutorial/AcceptInviteAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/CallControl1/CallControl1.csproj",
+        "Tutorial/CallControl1/Program.cs",
+        "Tutorial/CallControl1/Properties/AssemblyInfo.cs",
+        "Tutorial/CallControl1/obj/Debug/CallControl1.csproj.CopyComplete",
+        "Tutorial/CallControl1/obj/Debug/CallControl1.csproj.CoreCompileInputs.cache",
+        "Tutorial/CallControl1/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/CallControl2/CallControl2.csproj",
+        "Tutorial/CallControl2/Program.cs",
+        "Tutorial/CallControl2/Properties/AssemblyInfo.cs",
+        "Tutorial/CallControl2/obj/Debug/CallControl2.csproj.CopyComplete",
+        "Tutorial/CallControl2/obj/Debug/CallControl2.csproj.CoreCompileInputs.cache",
+        "Tutorial/CallControl2/obj/Debug/CallControl2.csprojResolveAssemblyReference.cache",
+        "Tutorial/CallControl2/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/CallHold/App.ico",
+        "Tutorial/CallHold/AssemblyInfo.cs",
+        "Tutorial/CallHold/CallHold.csproj",
+        "Tutorial/CallHold/CallHold.csproj.user",
+        "Tutorial/CallHold/Form1.cs",
+        "Tutorial/CallHold/Form1.resx",
+        "Tutorial/CallHold/obj/Debug/CallHold.Form1.resources",
+        "Tutorial/CallHold/obj/Debug/CallHold.csproj.CopyComplete",
+        "Tutorial/CallHold/obj/Debug/CallHold.csproj.CoreCompileInputs.cache",
+        "Tutorial/CallHold/obj/Debug/CallHold.csproj.GenerateResource.Cache",
+        "Tutorial/CallHold/obj/Debug/CallHold.csprojAssemblyReference.cache",
+        "Tutorial/CallHold/obj/Debug/CallHold.csprojResolveAssemblyReference.cache",
+        "Tutorial/CallHold/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/CallHold/vssver2.scc",
+        "Tutorial/CallTransfer/App.ico",
+        "Tutorial/CallTransfer/AssemblyInfo.cs",
+        "Tutorial/CallTransfer/CallTransfer.csproj",
+        "Tutorial/CallTransfer/CallTransfer.csproj.user",
+        "Tutorial/CallTransfer/Form1.cs",
+        "Tutorial/CallTransfer/Form1.resx",
+        "Tutorial/CallTransfer/obj/Debug/CallTransfer.Form1.resources",
+        "Tutorial/CallTransfer/obj/Debug/CallTransfer.csproj.CopyComplete",
+        "Tutorial/CallTransfer/obj/Debug/CallTransfer.csproj.CoreCompileInputs.cache",
+        "Tutorial/CallTransfer/obj/Debug/CallTransfer.csproj.GenerateResource.Cache",
+        "Tutorial/CallTransfer/obj/Debug/CallTransfer.csprojAssemblyReference.cache",
+        "Tutorial/CallTransfer/obj/Debug/CallTransfer.csprojResolveAssemblyReference.cache",
+        "Tutorial/CallTransfer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/CallTransfer/vssver2.scc",
+        "Tutorial/Cancel/Cancel.csproj",
+        "Tutorial/Cancel/Program.cs",
+        "Tutorial/Cancel/Properties/AssemblyInfo.cs",
+        "Tutorial/Cancel/obj/Debug/Cancel.csproj.CopyComplete",
+        "Tutorial/Cancel/obj/Debug/Cancel.csproj.CoreCompileInputs.cache",
+        "Tutorial/Cancel/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/ConferenceCall/ConferenceCall.csproj",
+        "Tutorial/ConferenceCall/Program.cs",
+        "Tutorial/ConferenceCall/Properties/AssemblyInfo.cs",
+        "Tutorial/ConferenceCall/obj/Debug/ConferenceCall.csproj.CopyComplete",
+        "Tutorial/ConferenceCall/obj/Debug/ConferenceCall.csproj.CoreCompileInputs.cache",
+        "Tutorial/ConferenceCall/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/EndSession/EndSession.csproj",
+        "Tutorial/EndSession/Program.cs",
+        "Tutorial/EndSession/Properties/AssemblyInfo.cs",
+        "Tutorial/EndSession/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/EndSession/obj/Debug/EndSession.csproj.CopyComplete",
+        "Tutorial/EndSession/obj/Debug/EndSession.csproj.CoreCompileInputs.cache",
+        "Tutorial/GetOptions/GetOptions.csproj",
+        "Tutorial/GetOptions/Program.cs",
+        "Tutorial/GetOptions/Properties/AssemblyInfo.cs",
+        "Tutorial/GetOptions/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/GetOptions/obj/Debug/GetOptions.csproj.CopyComplete",
+        "Tutorial/GetOptions/obj/Debug/GetOptions.csproj.CoreCompileInputs.cache",
+        "Tutorial/GetOptionsAdvanced/GetOptionsAdvanced.csproj",
+        "Tutorial/GetOptionsAdvanced/Program.cs",
+        "Tutorial/GetOptionsAdvanced/Properties/AssemblyInfo.cs",
+        "Tutorial/GetOptionsAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/GetOptionsAdvanced/obj/Debug/GetOptionsAdvanced.csproj.CopyComplete",
+        "Tutorial/GetOptionsAdvanced/obj/Debug/GetOptionsAdvanced.csproj.CoreCompileInputs.cache",
+        "Tutorial/GetRegisteredContacts/GetRegisteredContacts.csproj",
+        "Tutorial/GetRegisteredContacts/Program.cs",
+        "Tutorial/GetRegisteredContacts/Properties/AssemblyInfo.cs",
+        "Tutorial/GetRegisteredContacts/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/GetRegisteredContacts/obj/Debug/GetRegisteredContacts.csproj.CopyComplete",
+        "Tutorial/GetRegisteredContacts/obj/Debug/GetRegisteredContacts.csproj.CoreCompileInputs.cache",
+        "Tutorial/GetRegisteredContacts/obj/Debug/GetRegisteredContacts.csprojResolveAssemblyReference.cache",
+        "Tutorial/Invite/Invite.csproj",
+        "Tutorial/Invite/Program.cs",
+        "Tutorial/Invite/Properties/AssemblyInfo.cs",
+        "Tutorial/Invite/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/Invite/obj/Debug/Invite.csproj.CopyComplete",
+        "Tutorial/Invite/obj/Debug/Invite.csproj.CoreCompileInputs.cache",
+        "Tutorial/Invite/obj/Debug/Invite.csprojResolveAssemblyReference.cache",
+        "Tutorial/InviteAdvanced/InviteAdvanced.csproj",
+        "Tutorial/InviteAdvanced/Program.cs",
+        "Tutorial/InviteAdvanced/Properties/AssemblyInfo.cs",
+        "Tutorial/InviteAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/InviteAdvanced/obj/Debug/InviteAdvanced.csproj.CopyComplete",
+        "Tutorial/InviteAdvanced/obj/Debug/InviteAdvanced.csproj.CoreCompileInputs.cache",
+        "Tutorial/PC2PCMessenger/App.ico",
+        "Tutorial/PC2PCMessenger/AssemblyInfo.cs",
+        "Tutorial/PC2PCMessenger/ConnectDialog.cs",
+        "Tutorial/PC2PCMessenger/ConnectDialog.resx",
+        "Tutorial/PC2PCMessenger/Form1.cs",
+        "Tutorial/PC2PCMessenger/Form1.resx",
+        "Tutorial/PC2PCMessenger/PC2PCMessenger.csproj",
+        "Tutorial/PC2PCMessenger/PC2PCMessenger.csproj.user",
+        "Tutorial/PC2PCMessenger/bin/Debug/PC2PCMessenger.vshost.exe.manifest",
+        "Tutorial/PC2PCMessenger/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/PC2PCMessenger/obj/Debug/PC2PCMessenger.ConnectDialog.resources",
+        "Tutorial/PC2PCMessenger/obj/Debug/PC2PCMessenger.Form1.resources",
+        "Tutorial/PC2PCMessenger/obj/Debug/PC2PCMessenger.csproj.CopyComplete",
+        "Tutorial/PC2PCMessenger/obj/Debug/PC2PCMessenger.csproj.CoreCompileInputs.cache",
+        "Tutorial/PC2PCMessenger/obj/Debug/PC2PCMessenger.csproj.GenerateResource.Cache",
+        "Tutorial/PC2PCMessenger/obj/Debug/PC2PCMessenger.csprojAssemblyReference.cache",
+        "Tutorial/PC2PCMessenger/obj/Debug/PC2PCMessenger.csprojResolveAssemblyReference.cache",
+        "Tutorial/PC2PCMessenger/vssver2.scc",
+        "Tutorial/Publish/App.ico",
+        "Tutorial/Publish/AssemblyInfo.cs",
+        "Tutorial/Publish/Form1.cs",
+        "Tutorial/Publish/Form1.resx",
+        "Tutorial/Publish/Publish.csproj",
+        "Tutorial/Publish/Publish.csproj.user",
+        "Tutorial/Publish/obj/Debug/CallHold.Form1.resources",
+        "Tutorial/Publish/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/Publish/obj/Debug/Publish.csproj.CopyComplete",
+        "Tutorial/Publish/obj/Debug/Publish.csproj.CoreCompileInputs.cache",
+        "Tutorial/Publish/obj/Debug/Publish.csproj.GenerateResource.Cache",
+        "Tutorial/Publish/obj/Debug/Publish.csprojAssemblyReference.cache",
+        "Tutorial/Publish/obj/Debug/Publish.csprojResolveAssemblyReference.cache",
+        "Tutorial/Publish/vssver2.scc",
+        "Tutorial/Register/Program.cs",
+        "Tutorial/Register/Properties/AssemblyInfo.cs",
+        "Tutorial/Register/Register.csproj",
+        "Tutorial/Register/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/Register/obj/Debug/Register.csproj.CopyComplete",
+        "Tutorial/Register/obj/Debug/Register.csproj.CoreCompileInputs.cache",
+        "Tutorial/Register/obj/Debug/Register.csprojAssemblyReference.cache",
+        "Tutorial/Register/obj/Debug/Register.csprojResolveAssemblyReference.cache",
+        "Tutorial/Register2/Program.cs",
+        "Tutorial/Register2/Properties/AssemblyInfo.cs",
+        "Tutorial/Register2/Register2.csproj",
+        "Tutorial/Register2/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/Register2/obj/Debug/Register2.csproj.CopyComplete",
+        "Tutorial/Register2/obj/Debug/Register2.csproj.CoreCompileInputs.cache",
+        "Tutorial/Register2/obj/Debug/Register2.csprojAssemblyReference.cache",
+        "Tutorial/Register2/obj/Debug/Register2.csprojResolveAssemblyReference.cache",
+        "Tutorial/RegisterAdvanced/Program.cs",
+        "Tutorial/RegisterAdvanced/Properties/AssemblyInfo.cs",
+        "Tutorial/RegisterAdvanced/RegisterAdvanced.csproj",
+        "Tutorial/RegisterAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/RegisterAdvanced/obj/Debug/RegisterAdvanced.csproj.CopyComplete",
+        "Tutorial/RegisterAdvanced/obj/Debug/RegisterAdvanced.csproj.CoreCompileInputs.cache",
+        "Tutorial/RegisterAdvanced/obj/Debug/RegisterAdvanced.csprojAssemblyReference.cache",
+        "Tutorial/RegisterAdvanced/obj/Debug/RegisterAdvanced.csprojResolveAssemblyReference.cache",
+        "Tutorial/Reinvite/Program.cs",
+        "Tutorial/Reinvite/Properties/AssemblyInfo.cs",
+        "Tutorial/Reinvite/Reinvite.csproj",
+        "Tutorial/Reinvite/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/Reinvite/obj/Debug/Reinvite.csproj.CopyComplete",
+        "Tutorial/Reinvite/obj/Debug/Reinvite.csproj.CoreCompileInputs.cache",
+        "Tutorial/ReinviteAdvanced/Program.cs",
+        "Tutorial/ReinviteAdvanced/Properties/AssemblyInfo.cs",
+        "Tutorial/ReinviteAdvanced/ReinviteAdvanced.csproj",
+        "Tutorial/ReinviteAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/ReinviteAdvanced/obj/Debug/ReinviteAdvanced.csproj.CopyComplete",
+        "Tutorial/ReinviteAdvanced/obj/Debug/ReinviteAdvanced.csproj.CoreCompileInputs.cache",
+        "Tutorial/SIP .NET Tutorial.sln",
+        "Tutorial/SIP .NET Tutorial.suo",
+        "Tutorial/SIP .NET Tutorial.v12.suo",
+        "Tutorial/SendInfo/Program.cs",
+        "Tutorial/SendInfo/Properties/AssemblyInfo.cs",
+        "Tutorial/SendInfo/SendInfo.csproj",
+        "Tutorial/SendInfo/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/SendInfo/obj/Debug/SendInfo.csproj.CopyComplete",
+        "Tutorial/SendInfo/obj/Debug/SendInfo.csproj.CoreCompileInputs.cache",
+        "Tutorial/SendInfoAdvanced/Program.cs",
+        "Tutorial/SendInfoAdvanced/Properties/AssemblyInfo.cs",
+        "Tutorial/SendInfoAdvanced/SendInfoAdvanced.csproj",
+        "Tutorial/SendInfoAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/SendInfoAdvanced/obj/Debug/SendInfoAdvanced.csproj.CopyComplete",
+        "Tutorial/SendInfoAdvanced/obj/Debug/SendInfoAdvanced.csproj.CoreCompileInputs.cache",
+        "Tutorial/SendMessage/Program.cs",
+        "Tutorial/SendMessage/Properties/AssemblyInfo.cs",
+        "Tutorial/SendMessage/SendMessage.csproj",
+        "Tutorial/SendMessage/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/SendMessage/obj/Debug/SendMessage.csproj.CopyComplete",
+        "Tutorial/SendMessage/obj/Debug/SendMessage.csproj.CoreCompileInputs.cache",
+        "Tutorial/SendMessageAdvanced/Program.cs",
+        "Tutorial/SendMessageAdvanced/Properties/AssemblyInfo.cs",
+        "Tutorial/SendMessageAdvanced/SendMessageAdvanced.csproj",
+        "Tutorial/SendMessageAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/SendMessageAdvanced/obj/Debug/SendMessageAdvanced.csproj.CopyComplete",
+        "Tutorial/SendMessageAdvanced/obj/Debug/SendMessageAdvanced.csproj.CoreCompileInputs.cache",
+        "Tutorial/Subscribe/Program.cs",
+        "Tutorial/Subscribe/Properties/AssemblyInfo.cs",
+        "Tutorial/Subscribe/Subscribe.csproj",
+        "Tutorial/Subscribe/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/Subscribe/obj/Debug/Subscribe.csproj.CopyComplete",
+        "Tutorial/Subscribe/obj/Debug/Subscribe.csproj.CoreCompileInputs.cache",
+        "Tutorial/SubscribeAdvanced/Program.cs",
+        "Tutorial/SubscribeAdvanced/Properties/AssemblyInfo.cs",
+        "Tutorial/SubscribeAdvanced/SubscribeAdvanced.csproj",
+        "Tutorial/SubscribeAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/SubscribeAdvanced/obj/Debug/SubscribeAdvanced.csproj.CopyComplete",
+        "Tutorial/SubscribeAdvanced/obj/Debug/SubscribeAdvanced.csproj.CoreCompileInputs.cache",
+        "Tutorial/Unregister/Program.cs",
+        "Tutorial/Unregister/Properties/AssemblyInfo.cs",
+        "Tutorial/Unregister/Unregister.csproj",
+        "Tutorial/Unregister/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/Unregister/obj/Debug/Unregister.csproj.CopyComplete",
+        "Tutorial/Unregister/obj/Debug/Unregister.csproj.CoreCompileInputs.cache",
+        "Tutorial/Unregister/obj/Debug/Unregister.csprojAssemblyReference.cache",
+        "Tutorial/Unregister/obj/Debug/Unregister.csprojResolveAssemblyReference.cache",
+        "Tutorial/VBAcceptInviteAdvanced/Module1.vb",
+        "Tutorial/VBAcceptInviteAdvanced/My Project/Application.Designer.vb",
+        "Tutorial/VBAcceptInviteAdvanced/My Project/Application.myapp",
+        "Tutorial/VBAcceptInviteAdvanced/My Project/AssemblyInfo.vb",
+        "Tutorial/VBAcceptInviteAdvanced/My Project/Resources.Designer.vb",
+        "Tutorial/VBAcceptInviteAdvanced/My Project/Resources.resx",
+        "Tutorial/VBAcceptInviteAdvanced/My Project/Settings.Designer.vb",
+        "Tutorial/VBAcceptInviteAdvanced/My Project/Settings.settings",
+        "Tutorial/VBAcceptInviteAdvanced/VBAcceptInviteAdvanced.vbproj",
+        "Tutorial/VBAcceptInviteAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBAcceptInviteAdvanced/obj/Debug/VBAcceptInviteAdvanced.Resources.resources",
+        "Tutorial/VBAcceptInviteAdvanced/obj/Debug/VBAcceptInviteAdvanced.vbproj.CopyComplete",
+        "Tutorial/VBAcceptInviteAdvanced/obj/Debug/VBAcceptInviteAdvanced.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBAcceptInviteAdvanced/obj/Debug/VBAcceptInviteAdvanced.vbproj.GenerateResource.Cache",
+        "Tutorial/VBCallControl1/Module1.vb",
+        "Tutorial/VBCallControl1/My Project/Application.Designer.vb",
+        "Tutorial/VBCallControl1/My Project/Application.myapp",
+        "Tutorial/VBCallControl1/My Project/AssemblyInfo.vb",
+        "Tutorial/VBCallControl1/My Project/Resources.Designer.vb",
+        "Tutorial/VBCallControl1/My Project/Resources.resx",
+        "Tutorial/VBCallControl1/My Project/Settings.Designer.vb",
+        "Tutorial/VBCallControl1/My Project/Settings.settings",
+        "Tutorial/VBCallControl1/VBCallControl1.vbproj",
+        "Tutorial/VBCallControl1/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBCallControl1/obj/Debug/VBCallControl1.Resources.resources",
+        "Tutorial/VBCallControl1/obj/Debug/VBCallControl1.vbproj.CopyComplete",
+        "Tutorial/VBCallControl1/obj/Debug/VBCallControl1.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBCallControl1/obj/Debug/VBCallControl1.vbproj.GenerateResource.Cache",
+        "Tutorial/VBCallControl2/Module1.vb",
+        "Tutorial/VBCallControl2/My Project/Application.Designer.vb",
+        "Tutorial/VBCallControl2/My Project/Application.myapp",
+        "Tutorial/VBCallControl2/My Project/AssemblyInfo.vb",
+        "Tutorial/VBCallControl2/My Project/Resources.Designer.vb",
+        "Tutorial/VBCallControl2/My Project/Resources.resx",
+        "Tutorial/VBCallControl2/My Project/Settings.Designer.vb",
+        "Tutorial/VBCallControl2/My Project/Settings.settings",
+        "Tutorial/VBCallControl2/VBCallControl2.vbproj",
+        "Tutorial/VBCallControl2/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBCallControl2/obj/Debug/VBCallControl2.Resources.resources",
+        "Tutorial/VBCallControl2/obj/Debug/VBCallControl2.vbproj.CopyComplete",
+        "Tutorial/VBCallControl2/obj/Debug/VBCallControl2.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBCallControl2/obj/Debug/VBCallControl2.vbproj.GenerateResource.Cache",
+        "Tutorial/VBCallHold/AssemblyInfo.vb",
+        "Tutorial/VBCallHold/Form1.resx",
+        "Tutorial/VBCallHold/Form1.vb",
+        "Tutorial/VBCallHold/VBCallHold.vbproj",
+        "Tutorial/VBCallHold/VBCallHold.vbproj.user",
+        "Tutorial/VBCallHold/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBCallHold/obj/Debug/VBCallHold.Form1.resources",
+        "Tutorial/VBCallHold/obj/Debug/VBCallHold.vbproj.CopyComplete",
+        "Tutorial/VBCallHold/obj/Debug/VBCallHold.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBCallHold/obj/Debug/VBCallHold.vbproj.GenerateResource.Cache",
+        "Tutorial/VBCallHold/obj/Debug/VBCallHold.vbprojAssemblyReference.cache",
+        "Tutorial/VBCallHold/vssver2.scc",
+        "Tutorial/VBCallTransfer/AssemblyInfo.vb",
+        "Tutorial/VBCallTransfer/Form1.resx",
+        "Tutorial/VBCallTransfer/Form1.vb",
+        "Tutorial/VBCallTransfer/VBCallTransfer.vbproj",
+        "Tutorial/VBCallTransfer/VBCallTransfer.vbproj.user",
+        "Tutorial/VBCallTransfer/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBCallTransfer/obj/Debug/VBCallTransfer.Form1.resources",
+        "Tutorial/VBCallTransfer/obj/Debug/VBCallTransfer.vbproj.CopyComplete",
+        "Tutorial/VBCallTransfer/obj/Debug/VBCallTransfer.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBCallTransfer/obj/Debug/VBCallTransfer.vbproj.GenerateResource.Cache",
+        "Tutorial/VBCallTransfer/obj/Debug/VBCallTransfer.vbprojAssemblyReference.cache",
+        "Tutorial/VBCallTransfer/vssver2.scc",
+        "Tutorial/VBCancel/Module1.vb",
+        "Tutorial/VBCancel/My Project/Application.Designer.vb",
+        "Tutorial/VBCancel/My Project/Application.myapp",
+        "Tutorial/VBCancel/My Project/AssemblyInfo.vb",
+        "Tutorial/VBCancel/My Project/Resources.Designer.vb",
+        "Tutorial/VBCancel/My Project/Resources.resx",
+        "Tutorial/VBCancel/My Project/Settings.Designer.vb",
+        "Tutorial/VBCancel/My Project/Settings.settings",
+        "Tutorial/VBCancel/VBCancel.vbproj",
+        "Tutorial/VBCancel/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBCancel/obj/Debug/VBCancel.Resources.resources",
+        "Tutorial/VBCancel/obj/Debug/VBCancel.vbproj.CopyComplete",
+        "Tutorial/VBCancel/obj/Debug/VBCancel.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBCancel/obj/Debug/VBCancel.vbproj.GenerateResource.Cache",
+        "Tutorial/VBCancel/obj/Debug/VBCancel.vbprojAssemblyReference.cache",
+        "Tutorial/VBConferenceCall/Module1.vb",
+        "Tutorial/VBConferenceCall/My Project/Application.Designer.vb",
+        "Tutorial/VBConferenceCall/My Project/Application.myapp",
+        "Tutorial/VBConferenceCall/My Project/AssemblyInfo.vb",
+        "Tutorial/VBConferenceCall/My Project/Resources.Designer.vb",
+        "Tutorial/VBConferenceCall/My Project/Resources.resx",
+        "Tutorial/VBConferenceCall/My Project/Settings.Designer.vb",
+        "Tutorial/VBConferenceCall/My Project/Settings.settings",
+        "Tutorial/VBConferenceCall/VBConferenceCall.vbproj",
+        "Tutorial/VBConferenceCall/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBConferenceCall/obj/Debug/VBConferenceCal.Resources.resources",
+        "Tutorial/VBConferenceCall/obj/Debug/VBConferenceCal.vbproj.GenerateResource.Cache",
+        "Tutorial/VBConferenceCall/obj/Debug/VBConferenceCall.vbproj.CopyComplete",
+        "Tutorial/VBConferenceCall/obj/Debug/VBConferenceCall.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBConferenceCall/obj/Debug/VBConferenceCall.vbproj.GenerateResource.Cache",
+        "Tutorial/VBEndSession/Module1.vb",
+        "Tutorial/VBEndSession/My Project/Application.Designer.vb",
+        "Tutorial/VBEndSession/My Project/Application.myapp",
+        "Tutorial/VBEndSession/My Project/AssemblyInfo.vb",
+        "Tutorial/VBEndSession/My Project/Resources.Designer.vb",
+        "Tutorial/VBEndSession/My Project/Resources.resx",
+        "Tutorial/VBEndSession/My Project/Settings.Designer.vb",
+        "Tutorial/VBEndSession/My Project/Settings.settings",
+        "Tutorial/VBEndSession/VBEndSession.vbproj",
+        "Tutorial/VBEndSession/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBEndSession/obj/Debug/VBEndSession.Resources.resources",
+        "Tutorial/VBEndSession/obj/Debug/VBEndSession.vbproj.CopyComplete",
+        "Tutorial/VBEndSession/obj/Debug/VBEndSession.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBEndSession/obj/Debug/VBEndSession.vbproj.GenerateResource.Cache",
+        "Tutorial/VBGetOptions/Module1.vb",
+        "Tutorial/VBGetOptions/My Project/Application.Designer.vb",
+        "Tutorial/VBGetOptions/My Project/Application.myapp",
+        "Tutorial/VBGetOptions/My Project/AssemblyInfo.vb",
+        "Tutorial/VBGetOptions/My Project/Resources.Designer.vb",
+        "Tutorial/VBGetOptions/My Project/Resources.resx",
+        "Tutorial/VBGetOptions/My Project/Settings.Designer.vb",
+        "Tutorial/VBGetOptions/My Project/Settings.settings",
+        "Tutorial/VBGetOptions/VBGetOptions.vbproj",
+        "Tutorial/VBGetOptions/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBGetOptions/obj/Debug/VBGetOptions.Resources.resources",
+        "Tutorial/VBGetOptions/obj/Debug/VBGetOptions.vbproj.CopyComplete",
+        "Tutorial/VBGetOptions/obj/Debug/VBGetOptions.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBGetOptions/obj/Debug/VBGetOptions.vbproj.GenerateResource.Cache",
+        "Tutorial/VBGetOptionsAdvanced/Module1.vb",
+        "Tutorial/VBGetOptionsAdvanced/My Project/Application.Designer.vb",
+        "Tutorial/VBGetOptionsAdvanced/My Project/Application.myapp",
+        "Tutorial/VBGetOptionsAdvanced/My Project/AssemblyInfo.vb",
+        "Tutorial/VBGetOptionsAdvanced/My Project/Resources.Designer.vb",
+        "Tutorial/VBGetOptionsAdvanced/My Project/Resources.resx",
+        "Tutorial/VBGetOptionsAdvanced/My Project/Settings.Designer.vb",
+        "Tutorial/VBGetOptionsAdvanced/My Project/Settings.settings",
+        "Tutorial/VBGetOptionsAdvanced/VBGetOptionsAdvanced.vbproj",
+        "Tutorial/VBGetOptionsAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBGetOptionsAdvanced/obj/Debug/VBGetOptionsAdvanced.Resources.resources",
+        "Tutorial/VBGetOptionsAdvanced/obj/Debug/VBGetOptionsAdvanced.vbproj.CopyComplete",
+        "Tutorial/VBGetOptionsAdvanced/obj/Debug/VBGetOptionsAdvanced.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBGetOptionsAdvanced/obj/Debug/VBGetOptionsAdvanced.vbproj.GenerateResource.Cache",
+        "Tutorial/VBGetRegisteredContacts/Module1.vb",
+        "Tutorial/VBGetRegisteredContacts/My Project/Application.Designer.vb",
+        "Tutorial/VBGetRegisteredContacts/My Project/Application.myapp",
+        "Tutorial/VBGetRegisteredContacts/My Project/AssemblyInfo.vb",
+        "Tutorial/VBGetRegisteredContacts/My Project/Resources.Designer.vb",
+        "Tutorial/VBGetRegisteredContacts/My Project/Resources.resx",
+        "Tutorial/VBGetRegisteredContacts/My Project/Settings.Designer.vb",
+        "Tutorial/VBGetRegisteredContacts/My Project/Settings.settings",
+        "Tutorial/VBGetRegisteredContacts/VBGetRegisteredContacts.vbproj",
+        "Tutorial/VBGetRegisteredContacts/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBGetRegisteredContacts/obj/Debug/VBGetRegisteredContacts.Resources.resources",
+        "Tutorial/VBGetRegisteredContacts/obj/Debug/VBGetRegisteredContacts.vbproj.CopyComplete",
+        "Tutorial/VBGetRegisteredContacts/obj/Debug/VBGetRegisteredContacts.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBGetRegisteredContacts/obj/Debug/VBGetRegisteredContacts.vbproj.GenerateResource.Cache",
+        "Tutorial/VBGetRegisteredContacts/obj/Debug/VBGetRegisteredContacts.vbprojAssemblyReference.cache",
+        "Tutorial/VBInvite/Module1.vb",
+        "Tutorial/VBInvite/My Project/Application.Designer.vb",
+        "Tutorial/VBInvite/My Project/Application.myapp",
+        "Tutorial/VBInvite/My Project/AssemblyInfo.vb",
+        "Tutorial/VBInvite/My Project/Resources.Designer.vb",
+        "Tutorial/VBInvite/My Project/Resources.resx",
+        "Tutorial/VBInvite/My Project/Settings.Designer.vb",
+        "Tutorial/VBInvite/My Project/Settings.settings",
+        "Tutorial/VBInvite/VBInvite.vbproj",
+        "Tutorial/VBInvite/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBInvite/obj/Debug/VBInvite.Resources.resources",
+        "Tutorial/VBInvite/obj/Debug/VBInvite.vbproj.CopyComplete",
+        "Tutorial/VBInvite/obj/Debug/VBInvite.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBInvite/obj/Debug/VBInvite.vbproj.GenerateResource.Cache",
+        "Tutorial/VBInviteAdvanced/Module1.vb",
+        "Tutorial/VBInviteAdvanced/My Project/Application.Designer.vb",
+        "Tutorial/VBInviteAdvanced/My Project/Application.myapp",
+        "Tutorial/VBInviteAdvanced/My Project/AssemblyInfo.vb",
+        "Tutorial/VBInviteAdvanced/My Project/Resources.Designer.vb",
+        "Tutorial/VBInviteAdvanced/My Project/Resources.resx",
+        "Tutorial/VBInviteAdvanced/My Project/Settings.Designer.vb",
+        "Tutorial/VBInviteAdvanced/My Project/Settings.settings",
+        "Tutorial/VBInviteAdvanced/VBInviteAdvanced.vbproj",
+        "Tutorial/VBInviteAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBInviteAdvanced/obj/Debug/VBInviteAdvanced.Resources.resources",
+        "Tutorial/VBInviteAdvanced/obj/Debug/VBInviteAdvanced.vbproj.CopyComplete",
+        "Tutorial/VBInviteAdvanced/obj/Debug/VBInviteAdvanced.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBInviteAdvanced/obj/Debug/VBInviteAdvanced.vbproj.GenerateResource.Cache",
+        "Tutorial/VBInviteAdvanced/obj/Debug/VBInviteAdvanced.vbprojAssemblyReference.cache",
+        "Tutorial/VBPC2PCMessenger/AssemblyInfo.vb",
+        "Tutorial/VBPC2PCMessenger/ConnectDialog.resx",
+        "Tutorial/VBPC2PCMessenger/ConnectDialog.vb",
+        "Tutorial/VBPC2PCMessenger/Form1.resx",
+        "Tutorial/VBPC2PCMessenger/Form1.vb",
+        "Tutorial/VBPC2PCMessenger/VBPC2PCMessenger.vbproj",
+        "Tutorial/VBPC2PCMessenger/VBPC2PCMessenger.vbproj.user",
+        "Tutorial/VBPC2PCMessenger/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBPC2PCMessenger/obj/Debug/VBPC2PCMessenger.ConnectDialog.resources",
+        "Tutorial/VBPC2PCMessenger/obj/Debug/VBPC2PCMessenger.Form1.resources",
+        "Tutorial/VBPC2PCMessenger/obj/Debug/VBPC2PCMessenger.vbproj.CopyComplete",
+        "Tutorial/VBPC2PCMessenger/obj/Debug/VBPC2PCMessenger.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBPC2PCMessenger/obj/Debug/VBPC2PCMessenger.vbproj.GenerateResource.Cache",
+        "Tutorial/VBPC2PCMessenger/vssver2.scc",
+        "Tutorial/VBPublish/AssemblyInfo.vb",
+        "Tutorial/VBPublish/Form1.resx",
+        "Tutorial/VBPublish/Form1.vb",
+        "Tutorial/VBPublish/VBPublish.vbproj",
+        "Tutorial/VBPublish/VBPublish.vbproj.user",
+        "Tutorial/VBPublish/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBPublish/obj/Debug/ResolveAssemblyReference.cache",
+        "Tutorial/VBPublish/obj/Debug/VBPublish.Form1.resources",
+        "Tutorial/VBPublish/obj/Debug/VBPublish.vbproj.CopyComplete",
+        "Tutorial/VBPublish/obj/Debug/VBPublish.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBPublish/obj/Debug/VBPublish.vbproj.GenerateResource.Cache",
+        "Tutorial/VBPublish/vssver2.scc",
+        "Tutorial/VBRegister/Module1.vb",
+        "Tutorial/VBRegister/My Project/Application.Designer.vb",
+        "Tutorial/VBRegister/My Project/Application.myapp",
+        "Tutorial/VBRegister/My Project/AssemblyInfo.vb",
+        "Tutorial/VBRegister/My Project/Resources.Designer.vb",
+        "Tutorial/VBRegister/My Project/Resources.resx",
+        "Tutorial/VBRegister/My Project/Settings.Designer.vb",
+        "Tutorial/VBRegister/My Project/Settings.settings",
+        "Tutorial/VBRegister/VBRegister.vbproj",
+        "Tutorial/VBRegister/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBRegister/obj/Debug/VBRegister.Resources.resources",
+        "Tutorial/VBRegister/obj/Debug/VBRegister.vbproj.CopyComplete",
+        "Tutorial/VBRegister/obj/Debug/VBRegister.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBRegister/obj/Debug/VBRegister.vbproj.GenerateResource.Cache",
+        "Tutorial/VBRegister/obj/Debug/VBRegister.vbprojAssemblyReference.cache",
+        "Tutorial/VBRegister/obj/Debug/VBRegister.vbprojResolveAssemblyReference.cache",
+        "Tutorial/VBRegister2/Module1.vb",
+        "Tutorial/VBRegister2/My Project/Application.Designer.vb",
+        "Tutorial/VBRegister2/My Project/Application.myapp",
+        "Tutorial/VBRegister2/My Project/AssemblyInfo.vb",
+        "Tutorial/VBRegister2/My Project/Resources.Designer.vb",
+        "Tutorial/VBRegister2/My Project/Resources.resx",
+        "Tutorial/VBRegister2/My Project/Settings.Designer.vb",
+        "Tutorial/VBRegister2/My Project/Settings.settings",
+        "Tutorial/VBRegister2/VBRegister2.vbproj",
+        "Tutorial/VBRegister2/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBRegister2/obj/Debug/VBRegister2.Resources.resources",
+        "Tutorial/VBRegister2/obj/Debug/VBRegister2.vbproj.CopyComplete",
+        "Tutorial/VBRegister2/obj/Debug/VBRegister2.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBRegister2/obj/Debug/VBRegister2.vbproj.GenerateResource.Cache",
+        "Tutorial/VBRegister2/obj/Debug/VBRegister2.vbprojAssemblyReference.cache",
+        "Tutorial/VBRegisterAdvanced/Module1.vb",
+        "Tutorial/VBRegisterAdvanced/My Project/Application.Designer.vb",
+        "Tutorial/VBRegisterAdvanced/My Project/Application.myapp",
+        "Tutorial/VBRegisterAdvanced/My Project/AssemblyInfo.vb",
+        "Tutorial/VBRegisterAdvanced/My Project/Resources.Designer.vb",
+        "Tutorial/VBRegisterAdvanced/My Project/Resources.resx",
+        "Tutorial/VBRegisterAdvanced/My Project/Settings.Designer.vb",
+        "Tutorial/VBRegisterAdvanced/My Project/Settings.settings",
+        "Tutorial/VBRegisterAdvanced/VBRegisterAdvanced.vbproj",
+        "Tutorial/VBRegisterAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBRegisterAdvanced/obj/Debug/VBRegisterAdvanced.Resources.resources",
+        "Tutorial/VBRegisterAdvanced/obj/Debug/VBRegisterAdvanced.vbproj.CopyComplete",
+        "Tutorial/VBRegisterAdvanced/obj/Debug/VBRegisterAdvanced.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBRegisterAdvanced/obj/Debug/VBRegisterAdvanced.vbproj.GenerateResource.Cache",
+        "Tutorial/VBRegisterAdvanced/obj/Debug/VBRegisterAdvanced.vbprojAssemblyReference.cache",
+        "Tutorial/VBReinvite/Module1.vb",
+        "Tutorial/VBReinvite/My Project/Application.Designer.vb",
+        "Tutorial/VBReinvite/My Project/Application.myapp",
+        "Tutorial/VBReinvite/My Project/AssemblyInfo.vb",
+        "Tutorial/VBReinvite/My Project/Resources.Designer.vb",
+        "Tutorial/VBReinvite/My Project/Resources.resx",
+        "Tutorial/VBReinvite/My Project/Settings.Designer.vb",
+        "Tutorial/VBReinvite/My Project/Settings.settings",
+        "Tutorial/VBReinvite/VBReinvite.vbproj",
+        "Tutorial/VBReinvite/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBReinvite/obj/Debug/VBReinvite.Resources.resources",
+        "Tutorial/VBReinvite/obj/Debug/VBReinvite.vbproj.CopyComplete",
+        "Tutorial/VBReinvite/obj/Debug/VBReinvite.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBReinvite/obj/Debug/VBReinvite.vbproj.GenerateResource.Cache",
+        "Tutorial/VBReinviteAdvanced/Module1.vb",
+        "Tutorial/VBReinviteAdvanced/My Project/Application.Designer.vb",
+        "Tutorial/VBReinviteAdvanced/My Project/Application.myapp",
+        "Tutorial/VBReinviteAdvanced/My Project/AssemblyInfo.vb",
+        "Tutorial/VBReinviteAdvanced/My Project/Resources.Designer.vb",
+        "Tutorial/VBReinviteAdvanced/My Project/Resources.resx",
+        "Tutorial/VBReinviteAdvanced/My Project/Settings.Designer.vb",
+        "Tutorial/VBReinviteAdvanced/My Project/Settings.settings",
+        "Tutorial/VBReinviteAdvanced/VBReinviteAdvanced.vbproj",
+        "Tutorial/VBReinviteAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBReinviteAdvanced/obj/Debug/VBReinviteAdvanced.Resources.resources",
+        "Tutorial/VBReinviteAdvanced/obj/Debug/VBReinviteAdvanced.vbproj.CopyComplete",
+        "Tutorial/VBReinviteAdvanced/obj/Debug/VBReinviteAdvanced.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBReinviteAdvanced/obj/Debug/VBReinviteAdvanced.vbproj.GenerateResource.Cache",
+        "Tutorial/VBSendInfo/Module1.vb",
+        "Tutorial/VBSendInfo/My Project/Application.Designer.vb",
+        "Tutorial/VBSendInfo/My Project/Application.myapp",
+        "Tutorial/VBSendInfo/My Project/AssemblyInfo.vb",
+        "Tutorial/VBSendInfo/My Project/Resources.Designer.vb",
+        "Tutorial/VBSendInfo/My Project/Resources.resx",
+        "Tutorial/VBSendInfo/My Project/Settings.Designer.vb",
+        "Tutorial/VBSendInfo/My Project/Settings.settings",
+        "Tutorial/VBSendInfo/VBSendInfo.vbproj",
+        "Tutorial/VBSendInfo/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBSendInfo/obj/Debug/VBSendInfo.Resources.resources",
+        "Tutorial/VBSendInfo/obj/Debug/VBSendInfo.vbproj.CopyComplete",
+        "Tutorial/VBSendInfo/obj/Debug/VBSendInfo.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBSendInfo/obj/Debug/VBSendInfo.vbproj.GenerateResource.Cache",
+        "Tutorial/VBSendInfoAdvanced/Module1.vb",
+        "Tutorial/VBSendInfoAdvanced/My Project/Application.Designer.vb",
+        "Tutorial/VBSendInfoAdvanced/My Project/Application.myapp",
+        "Tutorial/VBSendInfoAdvanced/My Project/AssemblyInfo.vb",
+        "Tutorial/VBSendInfoAdvanced/My Project/Resources.Designer.vb",
+        "Tutorial/VBSendInfoAdvanced/My Project/Resources.resx",
+        "Tutorial/VBSendInfoAdvanced/My Project/Settings.Designer.vb",
+        "Tutorial/VBSendInfoAdvanced/My Project/Settings.settings",
+        "Tutorial/VBSendInfoAdvanced/VBSendInfoAdvanced.vbproj",
+        "Tutorial/VBSendInfoAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBSendInfoAdvanced/obj/Debug/VBSendInfoAdvanced.Resources.resources",
+        "Tutorial/VBSendInfoAdvanced/obj/Debug/VBSendInfoAdvanced.vbproj.CopyComplete",
+        "Tutorial/VBSendInfoAdvanced/obj/Debug/VBSendInfoAdvanced.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBSendInfoAdvanced/obj/Debug/VBSendInfoAdvanced.vbproj.GenerateResource.Cache",
+        "Tutorial/VBSendMessage/Module1.vb",
+        "Tutorial/VBSendMessage/My Project/Application.Designer.vb",
+        "Tutorial/VBSendMessage/My Project/Application.myapp",
+        "Tutorial/VBSendMessage/My Project/AssemblyInfo.vb",
+        "Tutorial/VBSendMessage/My Project/Resources.Designer.vb",
+        "Tutorial/VBSendMessage/My Project/Resources.resx",
+        "Tutorial/VBSendMessage/My Project/Settings.Designer.vb",
+        "Tutorial/VBSendMessage/My Project/Settings.settings",
+        "Tutorial/VBSendMessage/VBSendMessage.vbproj",
+        "Tutorial/VBSendMessage/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBSendMessage/obj/Debug/VBSendMessage.Resources.resources",
+        "Tutorial/VBSendMessage/obj/Debug/VBSendMessage.vbproj.CopyComplete",
+        "Tutorial/VBSendMessage/obj/Debug/VBSendMessage.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBSendMessage/obj/Debug/VBSendMessage.vbproj.GenerateResource.Cache",
+        "Tutorial/VBSendMessageAdvanced/Module1.vb",
+        "Tutorial/VBSendMessageAdvanced/My Project/Application.Designer.vb",
+        "Tutorial/VBSendMessageAdvanced/My Project/Application.myapp",
+        "Tutorial/VBSendMessageAdvanced/My Project/AssemblyInfo.vb",
+        "Tutorial/VBSendMessageAdvanced/My Project/Resources.Designer.vb",
+        "Tutorial/VBSendMessageAdvanced/My Project/Resources.resx",
+        "Tutorial/VBSendMessageAdvanced/My Project/Settings.Designer.vb",
+        "Tutorial/VBSendMessageAdvanced/My Project/Settings.settings",
+        "Tutorial/VBSendMessageAdvanced/VBSendMessageAdvanced.vbproj",
+        "Tutorial/VBSendMessageAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBSendMessageAdvanced/obj/Debug/VBSendMessageAdvanced.Resources.resources",
+        "Tutorial/VBSendMessageAdvanced/obj/Debug/VBSendMessageAdvanced.vbproj.CopyComplete",
+        "Tutorial/VBSendMessageAdvanced/obj/Debug/VBSendMessageAdvanced.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBSendMessageAdvanced/obj/Debug/VBSendMessageAdvanced.vbproj.GenerateResource.Cache",
+        "Tutorial/VBSubscribe/Module1.vb",
+        "Tutorial/VBSubscribe/My Project/Application.Designer.vb",
+        "Tutorial/VBSubscribe/My Project/Application.myapp",
+        "Tutorial/VBSubscribe/My Project/AssemblyInfo.vb",
+        "Tutorial/VBSubscribe/My Project/Resources.Designer.vb",
+        "Tutorial/VBSubscribe/My Project/Resources.resx",
+        "Tutorial/VBSubscribe/My Project/Settings.Designer.vb",
+        "Tutorial/VBSubscribe/My Project/Settings.settings",
+        "Tutorial/VBSubscribe/VBSubscribe.vbproj",
+        "Tutorial/VBSubscribe/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBSubscribe/obj/Debug/VBSubscribe.Resources.resources",
+        "Tutorial/VBSubscribe/obj/Debug/VBSubscribe.vbproj.CopyComplete",
+        "Tutorial/VBSubscribe/obj/Debug/VBSubscribe.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBSubscribe/obj/Debug/VBSubscribe.vbproj.GenerateResource.Cache",
+        "Tutorial/VBSubscribeAdvanced/Module1.vb",
+        "Tutorial/VBSubscribeAdvanced/My Project/Application.Designer.vb",
+        "Tutorial/VBSubscribeAdvanced/My Project/Application.myapp",
+        "Tutorial/VBSubscribeAdvanced/My Project/AssemblyInfo.vb",
+        "Tutorial/VBSubscribeAdvanced/My Project/Resources.Designer.vb",
+        "Tutorial/VBSubscribeAdvanced/My Project/Resources.resx",
+        "Tutorial/VBSubscribeAdvanced/My Project/Settings.Designer.vb",
+        "Tutorial/VBSubscribeAdvanced/My Project/Settings.settings",
+        "Tutorial/VBSubscribeAdvanced/VBSubscribeAdvanced.vbproj",
+        "Tutorial/VBSubscribeAdvanced/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBSubscribeAdvanced/obj/Debug/VBSubscribeAdvanced.Resources.resources",
+        "Tutorial/VBSubscribeAdvanced/obj/Debug/VBSubscribeAdvanced.vbproj.CopyComplete",
+        "Tutorial/VBSubscribeAdvanced/obj/Debug/VBSubscribeAdvanced.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBSubscribeAdvanced/obj/Debug/VBSubscribeAdvanced.vbproj.GenerateResource.Cache",
+        "Tutorial/VBUnregister/Module1.vb",
+        "Tutorial/VBUnregister/My Project/Application.Designer.vb",
+        "Tutorial/VBUnregister/My Project/Application.myapp",
+        "Tutorial/VBUnregister/My Project/AssemblyInfo.vb",
+        "Tutorial/VBUnregister/My Project/Resources.Designer.vb",
+        "Tutorial/VBUnregister/My Project/Resources.resx",
+        "Tutorial/VBUnregister/My Project/Settings.Designer.vb",
+        "Tutorial/VBUnregister/My Project/Settings.settings",
+        "Tutorial/VBUnregister/VBUnregister.vbproj",
+        "Tutorial/VBUnregister/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBUnregister/obj/Debug/VBUnregister.Resources.resources",
+        "Tutorial/VBUnregister/obj/Debug/VBUnregister.vbproj.CopyComplete",
+        "Tutorial/VBUnregister/obj/Debug/VBUnregister.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBUnregister/obj/Debug/VBUnregister.vbproj.GenerateResource.Cache",
+        "Tutorial/VBUnregister/obj/Debug/VBUnregister.vbprojAssemblyReference.cache",
+        "Tutorial/VBWebApplication/AssemblyInfo.vb",
+        "Tutorial/VBWebApplication/Global.asax",
+        "Tutorial/VBWebApplication/Global.asax.resx",
+        "Tutorial/VBWebApplication/Global.asax.vb",
+        "Tutorial/VBWebApplication/Global.asax.vb.old",
+        "Tutorial/VBWebApplication/Styles.css",
+        "Tutorial/VBWebApplication/VBWebApplication.vbproj",
+        "Tutorial/VBWebApplication/VBWebApplication.vbproj.user",
+        "Tutorial/VBWebApplication/Web.config",
+        "Tutorial/VBWebApplication/WebForm1.aspx",
+        "Tutorial/VBWebApplication/WebForm1.aspx.resx",
+        "Tutorial/VBWebApplication/WebForm1.aspx.vb",
+        "Tutorial/VBWebApplication/bin/WebApplication3.dll.config",
+        "Tutorial/VBWebApplication/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/VBWebApplication/obj/Debug/VBWebApplication.vbproj.CopyComplete",
+        "Tutorial/VBWebApplication/obj/Debug/VBWebApplication.vbproj.CoreCompileInputs.cache",
+        "Tutorial/VBWebApplication/obj/Debug/VBWebApplication.vbproj.GenerateResource.Cache",
+        "Tutorial/VBWebApplication/obj/Debug/VBWebApplication.vbprojAssemblyReference.cache",
+        "Tutorial/VBWebApplication/obj/Debug/WebApplication3.Global.resources",
+        "Tutorial/VBWebApplication/obj/Debug/WebApplication3.WebForm1.resources",
+        "Tutorial/WebApplication/AssemblyInfo.cs",
+        "Tutorial/WebApplication/Global.asax",
+        "Tutorial/WebApplication/Global.asax.cs",
+        "Tutorial/WebApplication/Global.asax.resx",
+        "Tutorial/WebApplication/Web.config",
+        "Tutorial/WebApplication/WebApplication.csproj",
+        "Tutorial/WebApplication/WebApplication.csproj.user",
+        "Tutorial/WebApplication/WebForm1.aspx",
+        "Tutorial/WebApplication/WebForm1.aspx.cs",
+        "Tutorial/WebApplication/WebForm1.aspx.resx",
+        "Tutorial/WebApplication/bin/WebApplication1.dll.config",
+        "Tutorial/WebApplication/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache",
+        "Tutorial/WebApplication/obj/Debug/WebApplication.csproj.CopyComplete",
+        "Tutorial/WebApplication/obj/Debug/WebApplication.csproj.CoreCompileInputs.cache",
+        "Tutorial/WebApplication/obj/Debug/WebApplication.csproj.GenerateResource.Cache",
+        "Tutorial/WebApplication/obj/Debug/WebApplication.csprojAssemblyReference.cache",
+        "Tutorial/WebApplication/obj/Debug/WebApplication.csprojResolveAssemblyReference.cache",
+        "Tutorial/WebApplication/obj/Debug/WebApplication1.Global.resources",
+        "Tutorial/WebApplication/obj/Debug/WebApplication1.WebForm1.resources",
+        "Tutorial/desktop.ini",
+        "independentsoft.sip.1.0.580.nupkg.sha512",
+        "independentsoft.sip.nuspec"
+      ]
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/System.Numerics.Vectors.dll",
+        "ref/net45/System.Numerics.Vectors.xml",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.5.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Xamarin.Essentials/1.3.1": {
+      "sha512": "+51728AdZ/qtABGvcIaNXgEoL2jAtxAXLHS8PvGCP0pb6n7twBqYpfgkmwHYVgu+U99szgtL+Jot8L+OXorPcA==",
+      "type": "package",
+      "path": "xamarin.essentials/1.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid60/Xamarin.Essentials.dll",
+        "lib/monoandroid60/Xamarin.Essentials.pdb",
+        "lib/monoandroid60/Xamarin.Essentials.xml",
+        "lib/monoandroid70/Xamarin.Essentials.dll",
+        "lib/monoandroid70/Xamarin.Essentials.pdb",
+        "lib/monoandroid70/Xamarin.Essentials.xml",
+        "lib/monoandroid71/Xamarin.Essentials.dll",
+        "lib/monoandroid71/Xamarin.Essentials.pdb",
+        "lib/monoandroid71/Xamarin.Essentials.xml",
+        "lib/monoandroid80/Xamarin.Essentials.dll",
+        "lib/monoandroid80/Xamarin.Essentials.pdb",
+        "lib/monoandroid80/Xamarin.Essentials.xml",
+        "lib/monoandroid81/Xamarin.Essentials.dll",
+        "lib/monoandroid81/Xamarin.Essentials.pdb",
+        "lib/monoandroid81/Xamarin.Essentials.xml",
+        "lib/monoandroid90/Xamarin.Essentials.dll",
+        "lib/monoandroid90/Xamarin.Essentials.pdb",
+        "lib/monoandroid90/Xamarin.Essentials.xml",
+        "lib/netstandard1.0/Xamarin.Essentials.dll",
+        "lib/netstandard1.0/Xamarin.Essentials.pdb",
+        "lib/netstandard1.0/Xamarin.Essentials.xml",
+        "lib/netstandard2.0/Xamarin.Essentials.dll",
+        "lib/netstandard2.0/Xamarin.Essentials.pdb",
+        "lib/netstandard2.0/Xamarin.Essentials.xml",
+        "lib/tizen40/Xamarin.Essentials.dll",
+        "lib/tizen40/Xamarin.Essentials.pdb",
+        "lib/tizen40/Xamarin.Essentials.xml",
+        "lib/uap10.0.16299/Xamarin.Essentials.dll",
+        "lib/uap10.0.16299/Xamarin.Essentials.pdb",
+        "lib/uap10.0.16299/Xamarin.Essentials.pri",
+        "lib/uap10.0.16299/Xamarin.Essentials.xml",
+        "lib/xamarinios10/Xamarin.Essentials.dll",
+        "lib/xamarinios10/Xamarin.Essentials.pdb",
+        "lib/xamarinios10/Xamarin.Essentials.xml",
+        "lib/xamarintvos10/Xamarin.Essentials.dll",
+        "lib/xamarintvos10/Xamarin.Essentials.pdb",
+        "lib/xamarintvos10/Xamarin.Essentials.xml",
+        "lib/xamarinwatchos10/Xamarin.Essentials.dll",
+        "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
+        "lib/xamarinwatchos10/Xamarin.Essentials.xml",
+        "readme.txt",
+        "xamarin.essentials.1.3.1.nupkg.sha512",
+        "xamarin.essentials.nuspec"
+      ]
+    },
+    "Xamarin.Forms/4.3.0.908675": {
+      "sha512": "kXrbXKJvXYF4cKjs1Jsb+pQFEnFGl0AONYSeABjgOJqN/o5Y4zC0XXQ68xiUI81PKQTuRB5F3oDom2t5ccJDZw==",
+      "type": "package",
+      "path": "xamarin.forms/4.3.0.908675",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/MonoAndroid10/proguard.cfg",
+        "build/Xamarin.Forms.DefaultItems.props",
+        "build/Xamarin.Forms.DefaultItems.targets",
+        "build/Xamarin.Forms.props",
+        "build/Xamarin.Forms.targets",
+        "build/net46/Mono.Cecil.Mdb.dll",
+        "build/net46/Mono.Cecil.Pdb.dll",
+        "build/net46/Mono.Cecil.Rocks.dll",
+        "build/net46/Mono.Cecil.dll",
+        "build/net46/System.ValueTuple.dll",
+        "build/net46/Xamarin.Forms.Build.Tasks.dll",
+        "build/net46/Xamarin.Forms.Core.dll",
+        "build/net46/Xamarin.Forms.Xaml.dll",
+        "build/netstandard2.0/Mono.Cecil.Mdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard2.0/Mono.Cecil.Rocks.dll",
+        "build/netstandard2.0/Mono.Cecil.dll",
+        "build/netstandard2.0/System.CodeDom.dll",
+        "build/netstandard2.0/Xamarin.Forms.Build.Tasks.dll",
+        "build/netstandard2.0/Xamarin.Forms.Core.dll",
+        "build/netstandard2.0/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid81/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid81/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/MonoAndroid81/FormsViewGroup.dll",
+        "lib/MonoAndroid81/FormsViewGroup.pdb",
+        "lib/MonoAndroid81/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Core.pdb",
+        "lib/MonoAndroid81/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Platform.Android.pdb",
+        "lib/MonoAndroid81/Xamarin.Forms.Platform.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid81/Xamarin.Forms.Xaml.pdb",
+        "lib/MonoAndroid81/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/de/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/de/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/es/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/es/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/fr/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/fr/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/it/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/it/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/ja/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/ja/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/ko/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/ko/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/pt-br/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/pt-br/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/ru/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/ru/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/zh-Hans/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid81/zh-Hant/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid81/zh-Hant/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid90/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/MonoAndroid90/FormsViewGroup.dll",
+        "lib/MonoAndroid90/FormsViewGroup.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Core.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Core.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Platform.Android.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Platform.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Xaml.dll",
+        "lib/MonoAndroid90/Xamarin.Forms.Xaml.pdb",
+        "lib/MonoAndroid90/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/de/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/de/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/es/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/es/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/fr/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/fr/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/it/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/it/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/ja/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/ja/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/ko/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/ko/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/pt-br/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/pt-br/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/ru/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/ru/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/zh-Hans/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/MonoAndroid90/zh-Hant/Xamarin.Forms.Core.xml",
+        "lib/MonoAndroid90/zh-Hant/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.Mac/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/Xamarin.Mac/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Platform.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Platform.macOS.dll",
+        "lib/Xamarin.Mac/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.pdb",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/de/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/de/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/es/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/es/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fr/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/fr/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/it/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/it/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ja/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ja/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ko/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ko/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/pt-br/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ru/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/ru/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Core.xml",
+        "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll",
+        "lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard1.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/netstandard1.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Core.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Core.pdb",
+        "lib/netstandard1.0/Xamarin.Forms.Core.xml",
+        "lib/netstandard1.0/Xamarin.Forms.Platform.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.dll",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.pdb",
+        "lib/netstandard1.0/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/netstandard2.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Core.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Core.pdb",
+        "lib/netstandard2.0/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/Xamarin.Forms.Platform.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.dll",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.pdb",
+        "lib/netstandard2.0/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/de/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/de/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/es/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/es/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/fr/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/fr/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/it/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/it/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/ja/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/ja/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/ko/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/ko/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/pt-br/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/pt-br/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/ru/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/ru/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/zh-Hans/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/zh-Hans/Xamarin.Forms.Xaml.xml",
+        "lib/netstandard2.0/zh-Hant/Xamarin.Forms.Core.xml",
+        "lib/netstandard2.0/zh-Hant/Xamarin.Forms.Xaml.xml",
+        "lib/tizen40/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/tizen40/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/tizen40/Xamarin.Forms.Core.dll",
+        "lib/tizen40/Xamarin.Forms.Core.pdb",
+        "lib/tizen40/Xamarin.Forms.Core.xml",
+        "lib/tizen40/Xamarin.Forms.Platform.Tizen.dll",
+        "lib/tizen40/Xamarin.Forms.Platform.Tizen.pdb",
+        "lib/tizen40/Xamarin.Forms.Platform.dll",
+        "lib/tizen40/Xamarin.Forms.Xaml.dll",
+        "lib/tizen40/Xamarin.Forms.Xaml.pdb",
+        "lib/tizen40/Xamarin.Forms.Xaml.xml",
+        "lib/uap10.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/uap10.0/Design/Xamarin.Forms.Xaml.Design.dll",
+        "lib/uap10.0/Xamarin.Forms.Core.dll",
+        "lib/uap10.0/Xamarin.Forms.Core.pdb",
+        "lib/uap10.0/Xamarin.Forms.Core.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP.pdb",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP.pri",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/AutoSuggestStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/CollectionView/ItemsViewStyles.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCheckBoxStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsCommandBarStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsEmbeddedPageWrapper.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsFlyout.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsProgressBarStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/FormsTextBoxStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/MasterDetailControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Microsoft.UI.Xaml/DensityStyles/Compact.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Shell/ShellStyles.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/StepperControl.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
+        "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
+        "lib/uap10.0/Xamarin.Forms.Platform.dll",
+        "lib/uap10.0/Xamarin.Forms.Xaml.dll",
+        "lib/uap10.0/Xamarin.Forms.Xaml.pdb",
+        "lib/uap10.0/Xamarin.Forms.Xaml.xml",
+        "xamarin.forms.4.3.0.908675.nupkg.sha512",
+        "xamarin.forms.nuspec"
+      ]
+    },
+    "sd/1.0.0": {
+      "type": "project",
+      "path": "../sd/sd.csproj",
+      "msbuildProject": "../sd/sd.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "Xamarin.iOS,Version=v1.0": [
+      "Xamarin.Essentials >= 1.3.1",
+      "Xamarin.Forms >= 4.3.0.908675",
+      "sd >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ahmidimohamed/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ahmidimohamed/Projects/sd/sd.iOS/sd.iOS.csproj",
+      "projectName": "sd.iOS",
+      "projectPath": "/Users/ahmidimohamed/Projects/sd/sd.iOS/sd.iOS.csproj",
+      "packagesPath": "/Users/ahmidimohamed/.nuget/packages/",
+      "outputPath": "/Users/ahmidimohamed/Projects/sd/sd.iOS/obj/",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "/Users/ahmidimohamed/.config/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "xamarinios10"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "projectReferences": {
+            "/Users/ahmidimohamed/Projects/sd/sd/sd.csproj": {
+              "projectPath": "/Users/ahmidimohamed/Projects/sd/sd/sd.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "xamarinios10": {
+        "dependencies": {
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.3.1, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[4.3.0.908675, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
